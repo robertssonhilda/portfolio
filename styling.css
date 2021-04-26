@@ -71,6 +71,13 @@ h2 span {
 
 h3 {
     color: rgb(121, 106, 103); 
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+img {
+    height: 400px;
 }
 
 .right-side {
@@ -111,6 +118,8 @@ a {
     font-size: 18px;
     color:  rgb(121, 106, 103);
     padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 #more2 {
@@ -126,6 +135,8 @@ a {
     font-size: 18px;
     color:  rgb(121, 106, 103);
     padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .readandsee img {
