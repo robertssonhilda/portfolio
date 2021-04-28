@@ -55,7 +55,8 @@ color: rgb(121, 106, 103);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: normal;
 text-transform: uppercase;
-font-size: 40px;
+font-size: 50px;
+padding-top: 3%;
 
 }
 
@@ -63,6 +64,7 @@ h2 {
     color: rgb(121, 106, 103);
     text-transform: uppercase;
     position: relative;
+    font-size: 32px;
 }
 
 h2 span {
@@ -96,9 +98,11 @@ img {
     /* margin-left: 60%; */
     /* margin-right: 5%; */
     /* float: right; */
-    position: absolute;
-    right: 10%;
+    /* position: absolute; */
+    /* right: 10%; */
+    margin-right: 10%;
     max-width: 40%;
+    /* float: right; */
 }
 
 .portrait img {
@@ -114,6 +118,7 @@ img {
     max-width: 50%;
     /* margin-left: 60px; */
     margin-left: 10%;
+    float: left;
 
 }
 
@@ -217,8 +222,12 @@ a {
 #img{
     /* margin-left: 500px;
     display: block; */
-    float: right;
+    /* float: right; */
+    /* float: left;  */
+    /* float: right; */
     max-height: 250px;
+    padding-left: 3%;
+    padding-bottom: 3%;
 }
 
 /* #img-furhat{
@@ -238,4 +247,9 @@ margin-right: 10%;
     max-width: 50%;
     /* display: flex; */
     /* justify-content: space-between; */
+    float: left; 
+}
+
+a:hover{
+    font-weight: 600;
 }
