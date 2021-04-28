@@ -22,6 +22,7 @@
     width: 100%;
     background-color:  rgb(121, 106, 103);
     padding: 15px;
+    z-index: 10;
 }
 
 ul {
@@ -81,10 +82,23 @@ img {
 }
 
 .right-side {
-    justify-content: right;
+    /* justify-content: right; */
     /* text-align: right; */
     /* float: right; */
-    margin-right: 60px;
+    /* margin-right: 60px; */
+    /* width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: right; */
+    /* align-content: right; */
+    /* position: left; */
+    /* margin-left: 60%; */
+    /* margin-right: 5%; */
+    /* float: right; */
+    position: absolute;
+    right: 10%;
+    max-width: 40%;
 }
 
 .portrait img {
@@ -95,8 +109,12 @@ img {
 .left-side {
     /* margin-right: 20px; */
     text-align: left;
-    max-width: 55%;
-    margin-left: 60px;
+    /* max-width: 40%; */
+    min-width: 40%;
+    max-width: 50%;
+    /* margin-left: 60px; */
+    margin-left: 10%;
+
 }
 
 a {
@@ -181,3 +199,43 @@ a {
     outline: none;
     background-color:  rgb(121, 106, 103);
 } */
+
+/* .readsee{
+    margin-left: 100px;
+} */
+
+.inwine{
+    /* margin-left: 100px; */
+    margin-left: 15%;
+}
+
+.murdermystery{
+    /* margin-left: 100px; */
+    margin-left: 15%;
+}
+
+#img{
+    /* margin-left: 500px;
+    display: block; */
+    float: right;
+    max-height: 250px;
+}
+
+/* #img-furhat{
+    margin-left: 500px;
+} */
+
+
+.middle{
+position: absolute;
+margin-top: 600px;
+text-align: left;
+margin-left:10%;
+margin-right: 10%;
+}
+
+.text{
+    max-width: 50%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}

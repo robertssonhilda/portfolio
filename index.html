@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Hilda Robertsson</title>
+    <link rel="icon" href=images/portrait-circle.png>
     <link rel="stylesheet" href="styling.css">
 </head>
 <!-- <body> -->
@@ -30,13 +31,39 @@
                         My name is Hilda and I'm a MSc student in Interactive Media Technology at 
                         KTH. <br/> Check out some of the projects that I've made and do not hesitate 
                         if you want to send me an email.
+                        <br></br>
                     </div>
                     
-                    <h2><span id="projects"></span>Projects</h2>
+                    
+                    
+                    
+                </div>
+
+         
+
+
+
+                
+                <div class="right-side">
+                    <div class="portrait">
+                        <img src=images/portrait_square.jpg alt="">
+                    </div> 
                     <div>
-                        <button onclick="readMore()" id="iprogBtn">Read&See</button>
-                        <span id="more">
-                            <p>This is a project where we created a webapplication using JavaScript, 
+                        <h2><span id="contact"></span>Contact</h2> 
+                        <p>hildar@kth.se</p>
+                        <a href="https://www.linkedin.com/in/hilda-robertsson-7a3b1816b" target="_blank">LinkedIn</a>
+                    </div> 
+                </div>  
+                
+                <div class="middle">
+                    <h2><span id="projects"></span>Projects</h2>
+                    <div class="readsee"> 
+                        <h3>Read&See</h3>
+                        <img id="img" src=images/readandsee_frontpage_big.PNG alt="">
+
+                        <!-- <button onclick="readMore()" id="iprogBtn">Read&See</button>
+                        <span id="more"> -->
+                            <p class="text">This is a project where we created a webapplication using JavaScript, 
                                 HTML and CSS together with React.js. We used two different API's to 
                                 retrieve data about books and movies and we used Firebase to store 
                                 user data as well as data about adaptations. It was built as a part
@@ -49,14 +76,16 @@
                                 appear to be adaptions on the site but actually are.
 
                             </p>
-                            <div class="readandsee">
+                            <br/> <br/>
+                            <br/> <br/>
+                            <!-- <div class="readandsee"> -->
                                 <!-- <img src=images/readandsee_frontpage.PNG alt=""> -->
-                                <img src=images/readandsee_frontpage_big.PNG alt="">
+                                <!-- <img src=images/readandsee_frontpage_big.PNG alt=""> -->
                                 <!-- <img src=images/readandsee_watchlist_big.PNG alt=""> -->
-                            </div>
+                            <!-- </div> -->
                             
                         </span>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var i=0;
                             function readMore(){
                                 if(!i){
@@ -70,12 +99,17 @@
                                     i=0;                        
                                 }
                             }
-                        </script>
+                        </script> -->
                     </div> 
-                    <div>
-                        <button onclick="readMore2()" id="mobilutBtn">inWinetation</button>
-                        <span id="more2">
-                            <p>
+                    <div class="inwine">
+
+                        <h3>inWinetation</h3>
+                        <img id="img" src=images/inwinetation_myposition.PNG alt="">  
+
+                        <!-- <button onclick="readMore2()" id="mobilutBtn">inWinetation</button>
+                        <span id="more2"> -->
+
+                            <p class="text"> 
                                 In this project we used Firebase Google Authentication, Cloud Firestore, 
                                 Onsen UI, React-Google-Maps/API and CSS. The project was created as a part
                                 of the course DM2518 Mobile Development with Web Technologies at KTH.
@@ -84,15 +118,17 @@
                                 perhaps join them for a beverage. You can add messages for your own position 
                                 to let your friends know what you are up to. 
                             </p>
-                            <div class="inwinetation">
+                            <br/> <br/>
+                            <br/> <br/>
+                            <!-- <div class="inwinetation"> -->
                               <!-- <img src=images/inwinetation_friends.PNG alt="">   -->
                               <!-- <img src=images/inwinetation_login.PNG alt="">   -->
                               <!-- <img src=images/inwinetation_map.PNG alt="">
                               <img src=images/inwinetation_map2.PNG alt="">   -->
-                              <img src=images/inwinetation_myposition.PNG alt="">  
-                            </div>
+                             <!-- <img id="img-inwinetation" src=images/inwinetation_myposition.PNG alt="">   -->
+                            <!-- </div> -->
                         </span>
-                        <script type="text/javascript">
+                        <!-- <script type="text/javascript">
                             var j=0;
                             function readMore2(){
                                 if(!j){
@@ -106,46 +142,49 @@
                                     j=0;                        
                                 }
                             }
-                        </script>
+                        </script> -->
                     </div>
-                    <div>
+                    <div class="B3">
                         <h3>B3</h3>
+                        <img id="img" src=images/ixd.JPG alt="" > 
+                        <p class="text">
                         DM2601 Media Technology and Interaction Design
                         Through a design process we used several different methods in order to design a new functionality for an application like Spotify.
                         The purpose we had in mind was how listening to music could be a group activity during a pandemic with restrictions. 
                         Through the phases of Discover, Define, Develop, and Deliver we used the methods body- and brainstorming, interviews, literature research, creating personas, moodboard, lo-fi and hi-fi sketches, and an interactive prototype made in figma. 
                         A workbook of our process was also made in figma.
+                        </p>
                         <br>
-                        <img src=images/ixd.JPG alt="" >  
+                        <br/> <br/>
+                        <br/> <br/>
+                  
                     </div>
                     
-                    <div>
+                    <div class="murdermystery">
                         <h3>Murder Mystery</h3>
+                        <img id="img" src=images/furhat_game.JPG alt="">
+                        <p class="text">
                         DT2140 Multimodal Interaction and Interfaces.
                         In this course we developed an interactive Murder Mystery Game, similar to Cluedo. 
                         This was made using Furhat SDK and Kotlin. 
-                        <br>
-                        <img src=images/furhat_game.JPG alt="">
+                        </p>
+                        <!-- <br> -->
+                        <br/> <br/>
+                        <br/> <br/>
+                        
                     </div>
                     
-                   <div>
+                   <div class="pop.flo">
                         <h3>POP.FLO</h3>
+                        <img id="img" src=images/pop.flo_img.JPG alt="">
+                        <p class="text">
                         DH2321 Information Visualization  
+                        </p>
                         <br>
-                        <img src=images/pop.flo_img.JPG alt="">
+                       
+                        <br></br>
                    </div> 
-                    
-                    
                 </div>
-                <div class="right-side">
-                    <div class="portrait">
-                        <img src=images/portrait_square.jpg alt="">
-                    </div> 
-                    <div>
-                        <h2><span id="contact"></span>Contact</h2> 
-                        <p>hildar@kth.se</p>
-                    </div> 
-                </div>      
             </div>
             <!-- <div class="bottom"> -->
                <!-- <a href=#up>^</a> -->
