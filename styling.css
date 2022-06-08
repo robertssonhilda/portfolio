@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 5px;
-    cursor: context-menu;
+    /* cursor: context-menu; */
     /* background-color: rgb(197, 184, 169); */
     border: none;
     overflow: hidden;
@@ -177,15 +177,17 @@ a {
 }
 
 .bottom {
-    /* text-align: center; */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    text-align: center;
+    /* position: fixed; */
+    /* position: absolute;
+    bottom: 0px;
+    left: 0; */
+    /* width: 100%; */
     /* align-content: center; */
     /* left: 50%; */
     /* background-color: 	rgb(220, 220, 220); */
-    padding: 15px;
+    /* padding: 15px; */
+    padding-bottom: 5%;
 
     
 }
@@ -215,6 +217,11 @@ a {
 }
 
 .murdermystery{
+    /* margin-left: 100px; */
+    margin-left: 15%;
+}
+
+.startender{
     /* margin-left: 100px; */
     margin-left: 15%;
 }
